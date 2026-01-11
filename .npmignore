@@ -1,0 +1,30 @@
+# Source files
+nodes/
+credentials/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.eslintrc.js
+.prettierrc
+jest.config.js
+gulpfile.js
+
+# Test files
+test/
+coverage/
+*.test.ts
+*.spec.ts
+
+# Development files
+.github/
+.vscode/
+.idea/
+scripts/
+
+# Misc
+.gitignore
+.DS_Store
+*.log
+*.tsbuildinfo
